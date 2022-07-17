@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+.jett{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,1)), url(../images/jettbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.elevate{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: font;
+    font-size: 50px;
+    
+}
+
+.elevate:hover {
+    font-size: 375%;
+}
+
+
+
+
+
+.neon{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)), url(../images/neon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.first{
+    color:white;
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+
+ 
+}
+
+.first:hover
+{
+    font-size: 175%;
+}
+
+
+
+
+
+
+
+.viper{
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.1)), url(../images/viper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.second{
+    color:white;
+    position: absolute;
+    font-family: font;
+    font-size: 25px;
+}
+
+.second:hover
+{
+    font-size: 175%;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'font';
+    src: url(fonts/LEMONMILK-Medium.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
